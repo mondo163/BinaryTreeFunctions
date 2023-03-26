@@ -18,6 +18,15 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="table.h" />
+    <ClInclude Include="TreeCreator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="table.cpp" />
+    <ClCompile Include="TreeCreator.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,15 +135,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\..\OneDrive\code\code\binaryTreeR\main.cpp" />
-    <ClCompile Include="..\..\..\OneDrive\code\code\binaryTreeR\supplied.cpp" />
-    <ClCompile Include="..\..\..\OneDrive\code\code\binaryTreeR\table.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\OneDrive\code\code\binaryTreeR\supplied.h" />
-    <ClInclude Include="..\..\..\OneDrive\code\code\binaryTreeR\table.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
